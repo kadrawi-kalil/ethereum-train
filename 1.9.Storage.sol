@@ -11,7 +11,7 @@ contract Storage {
         uint256 value;
 
         assembly {
-            //   value:=sload(slot)
+            // value := sload(slot)
             value := b.slot
         }
 

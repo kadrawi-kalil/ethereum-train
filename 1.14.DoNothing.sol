@@ -3,5 +3,5 @@
 pragma solidity >=0.8.2 <0.9.0;
 
 contract DoNothing {
-    function blue() external payable {}
+    function doNothing() external payable {}
 }
